@@ -22,7 +22,7 @@
 
 	<target name="compile" depends="init">
 		<!-- Compile the java code from ${src} into ${build} -->
-		<javac srcdir="${src}" destdir="${build}" includeantruntime="on">
+		<javac srcdir="${src}" destdir="${build}" includeantruntime="on" encoding="utf8">
 			<classpath refid="classpath" />
 		</javac>
 	</target>
